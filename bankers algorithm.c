@@ -5,8 +5,8 @@
 #include <stdbool.h>
 #include <time.h>
 
-int nresrcs;
-    n_prcss
+int n_resrcs,
+    n_prcss;
 int *res;
 int **res_alloc;
 int **max_res_req;
@@ -153,7 +153,7 @@ bool getSequence_of_exec() {
                         return false; // no safe sequence found
                 }
         }
-        return true;
+        return true
 }
 
 
