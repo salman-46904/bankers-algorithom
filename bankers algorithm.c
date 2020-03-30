@@ -10,11 +10,11 @@ int n_resrcs,
 int *res;
 int **res_alloc;
 int **max_res_req;
-int recs_needed;
+int **recs_needed;
 int *Sequence_of_exec;
 int number_process_ran = 0;
 
-pthr0ead_mutex_t recrs_lk;
+pthread_mutex_t recrs_lk;
 pthread_cond_t cnds.
 
 bool getSequence_of_exec().
