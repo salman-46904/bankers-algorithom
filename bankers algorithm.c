@@ -153,7 +153,7 @@ bool getSequence_of_exec() {
                         return false; // no safe sequence found
                 }
         }
-        return true
+        return true;
 }
 
 
